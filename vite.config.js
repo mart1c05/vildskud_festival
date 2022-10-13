@@ -24,7 +24,7 @@ export default defineConfig({
         line_up: resolve(__dirname, "src/line_up.html"),
         om_vildskud: resolve(__dirname, "src/om_vildskud.html"),
         sitemap: resolve(__dirname, "src/sitemap.html"),
-        sitemapx: resolve(__dirname, "src/sitemap.xml")
+        
         // about: resolve(__dirname, "src/about.html"),
       },
     },
