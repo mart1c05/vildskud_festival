@@ -6,11 +6,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Vildskud Festival for Scenekunst</title>
     <script type="module" crossorigin src="./assets/main.998dc7e8.js"></script>
-    <link rel="stylesheet" href="./assets/main.98e843ac.css">
+    <link rel="stylesheet" href="./assets/main.76fdb080.css">
   </head>
   <body class="overflow-x-hidden">
     <!-- HEADER -->
-    <header class="border-black border-b">
+    <header class="border-black relative border-b">
       <nav class="flex justify-between p-2">
         <!-- HEADER NAVIGATION MOBIL START -->
         <div class="lg:hidden">
@@ -31,7 +31,7 @@
 
             <ul
               tabindex="0"
-              class="border-black dropdown-content menu menu-compact absolute -left-[47vh] top-[6.25vh] w-[60vh] border border-solid bg-hvid p-5"
+              class="border-black dropdown-content menu menu-compact absolute -left-[47vh] top-[6.25vh] w-[100vw] border border-solid bg-hvid p-5"
             >
               <li>
                 <a
@@ -51,7 +51,7 @@
                       /></svg></span
                 ></a>
 
-                <ul class="relative left-0 gap-5 bg-baggrund shadow-inner">
+                <ul class="left-0 gap-5 bg-baggrund shadow-inner">
                   <li>
                     <a class="pl-5 text-brodtekst_web" href="frivillig.html"
                       >Bliv Frivillig</a
@@ -170,13 +170,13 @@
     <main class="overflow-x-hidden">
       <!-- ARKIV SEKTION -->
       <section class="grid flex-col place-content-center lg:mx-auto lg:flex">
-        <section class="px-10">
+        <section class="px-10 pb-5">
           <article>
             <div class="flex justify-center">
-              <h1 class="text-h1_mobil">Arkiv</h1>
+              <h1 class="text-h1_mobil lg:py-10 lg:text-h1_web">Arkiv</h1>
             </div>
             <div class="flex justify-center text-center lg:pb-5">
-              <h2 class="text-h2_mobil">
+              <h2 class="lg:text-h5_web">
                 Se <span class="text-orange">arkivet</span> for tidligere års
                 forestillinger herunder
               </h2>
@@ -189,7 +189,9 @@
         <section class="mx-auto lg:mx-auto" x-data="{dato: '2020'}">
           <article>
             <div>
-              <ul class="flex list-none text-h4_mobil lg:text-h4_web">
+              <ul
+                class="grid list-none grid-cols-3 text-h4_mobil lg:text-h4_web"
+              >
                 <li
                   class="border-2 p-4"
                   :style="dato === '2019' && { backgroundColor: '#92A377' }"
@@ -218,7 +220,7 @@
             </div>
           </article>
 
-          <article class="w-[42.35vh] lg:w-[55.7vh]">
+          <article class="">
             <!-- 2019 -->
             <section
               x-show="dato === '2019'"
@@ -520,7 +522,7 @@
             <section
               x-show="dato === '2020'"
               id="6_aug"
-              class="border-x-2 border-b-2"
+              class="grid border-x-2 border-b-2"
             >
               <article class="border-b-2">
                 <div
@@ -887,53 +889,56 @@
       <div class="grid grid-cols-2 gap-10 p-5">
         <div class="lg:mx-auto">
           <a href="index.html"
-            ><h4 class="text-brodtekst_web font-bold lg:text-h3_mobil">
+            ><h4 class="text-h5_mobil font-bold lg:text-h3_mobil">
               VILDSKUD
             </h4></a
           >
-
-          <p class="text-footer_mobil lg:text-brodtekst_mobil">
-            Vildskud er Københavns største og eneste scenekunstfestival.
-          </p>
-          <p class="text-footer_mobil lg:text-brodtekst_mobil">
-            Hver sommer fylder vi gaderne med scenekunst, liv og glade dage.
-          </p>
+          <div class="pt-2">
+            <p class="text-footer_mobil lg:text-brodtekst_mobil">
+              Vildskud er Københavns største og eneste scenekunstfestival.
+            </p>
+            <p class="text-footer_mobil lg:text-brodtekst_mobil">
+              Hver sommer fylder vi gaderne med scenekunst, liv og glade dage.
+            </p>
+          </div>
         </div>
 
         <div class="lg:mx-auto">
-          <h4 class="text-brodtekst_web font-bold lg:text-h3_mobil">
+          <h4 class="text-h5_mobil font-bold lg:text-h4_mobil">
             VI ELSKER BÆREDYGTIGHED
           </h4>
-          <p class="text-footer_mobil lg:text-brodtekst_mobil">
-            Hos Vildskud gør vi meget for ikke at belaste vores jord.
-          </p>
-          <p class="text-footer_mobil lg:text-brodtekst_mobil">
-            Vi ønsker ikke at udlede mere CO2 end nødvendigt!
-          </p>
+          <div class="pt-2">
+            <p class="text-footer_mobil lg:text-brodtekst_mobil">
+              Hos Vildskud gør vi meget for ikke at belaste vores jord.
+            </p>
+            <p class="text-footer_mobil lg:text-brodtekst_mobil">
+              Vi ønsker ikke at udlede mere CO2 end nødvendigt!
+            </p>
+          </div>
         </div>
       </div>
 
-      <div class="grid grid-cols-4 p-5 text-center lg:relative lg:pb-10">
-        <a class="text-brodtekst_mobil underline lg:text-h3_mobil" href=""
+      <div class="grid grid-cols-4 gap-5 p-5 text-center lg:relative lg:pb-10">
+        <a class="text-footer_mobil underline lg:text-footer_web" href=""
           >Facebook</a
         >
-        <a class="text-brodtekst_mobil underline lg:text-h3_mobil" href=""
+        <a class="pl-3 text-footer_mobil underline lg:text-footer_web" href=""
           >Instagram</a
         >
         <a
-          class="pl-5 text-brodtekst_mobil underline lg:text-h3_mobil"
+          class="pl-7 text-footer_mobil underline lg:text-footer_web"
           href="kontakt.html"
           >FAQ</a
         >
         <a
-          class="pr-5 text-brodtekst_mobil underline lg:pr-0 lg:text-h3_mobil"
+          class="pr-5 text-footer_mobil underline lg:pr-0 lg:text-footer_web"
           href="kontakt.html"
           >Kontakt</a
         >
       </div>
 
       <div
-        class="flex justify-evenly bg-beige py-2 text-footer_mobil_links lg:text-brodtekst_web"
+        class="flex justify-evenly bg-beige py-2 text-footer_mobil_links lg:text-footer_web_links"
       >
         <a href="">Cookiepolitik</a>
         <a href="">Privatlivspolitik</a>

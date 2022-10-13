@@ -6,11 +6,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Vildskud Festival - Program 2022</title>
     <script type="module" crossorigin src="./assets/main.998dc7e8.js"></script>
-    <link rel="stylesheet" href="./assets/main.98e843ac.css">
+    <link rel="stylesheet" href="./assets/main.76fdb080.css">
   </head>
   <body class="overflow-x-hidden bg-baggrund">
     <!-- HEADER -->
-    <header class="border-black border-b">
+    <header class="border-black relative border-b">
       <nav class="flex justify-between p-2">
         <!-- HEADER NAVIGATION MOBIL START -->
         <div class="lg:hidden">
@@ -31,7 +31,7 @@
 
             <ul
               tabindex="0"
-              class="border-black dropdown-content menu menu-compact absolute -left-[47vh] top-[6.25vh] w-[60vh] border border-solid bg-hvid p-5"
+              class="border-black dropdown-content menu menu-compact absolute -left-[47vh] top-[6.25vh] w-[100vw] border border-solid bg-hvid p-5"
             >
               <li>
                 <a
@@ -51,7 +51,7 @@
                       /></svg></span
                 ></a>
 
-                <ul class="relative left-0 gap-5 bg-baggrund shadow-inner">
+                <ul class="left-0 gap-5 bg-baggrund shadow-inner">
                   <li>
                     <a class="pl-5 text-brodtekst_web" href="frivillig.html"
                       >Bliv Frivillig</a
@@ -180,7 +180,7 @@
             <h1 class="text-center text-h1_mobil lg:text-h1_web">Program</h1>
           </div>
           <div>
-            <h3 class="text-center text-h3_mobil lg:text-h3_web">
+            <h3 class="py-10 text-center text-h3_mobil lg:text-h3_web">
               Se <span class="text-orange">programmet</span> herunder
             </h3>
           </div>
@@ -192,18 +192,20 @@
         >
           <article>
             <div class="">
-              <ul class="flex list-none text-h4_mobil lg:text-h4_web">
+              <ul
+                class="grid list-none grid-cols-5 text-center text-h4_mobil lg:text-h4_web"
+              >
                 <!-- tilføjet schema markup -->
                 <li
                   class="border-2 p-4"
                   :style="programdag === 'tirsdag' && { backgroundColor: '#92A377' }"
                 >
-                  <button itemprop="doorTime" @click="programdag = 'tirsdag'">
-                    <span
-                      itemprop="doorTime"
-                      class="text-h2_mobil lg:text-h2_web"
-                      >2</span
-                    >
+                  <button
+                    class=""
+                    itemprop="doorTime"
+                    @click="programdag = 'tirsdag'"
+                  >
+                    <span itemprop="doorTime" class="">2</span>
                     aug
                   </button>
                 </li>
@@ -216,11 +218,7 @@
                     itemprop="doorTime"
                     x-on:click="programdag = 'onsdag'"
                   >
-                    <span
-                      itemprop="doorTime"
-                      class="text-h2_mobil lg:text-h2_web"
-                      >3</span
-                    >
+                    <span itemprop="doorTime" class="">3</span>
                     aug
                   </button>
                 </li>
@@ -229,7 +227,7 @@
                   :style="programdag === 'torsdag' && { backgroundColor: '#92A377' }"
                 >
                   <button x-on:click="programdag = 'torsdag'">
-                    <span class="text-h2_mobil lg:text-h2_web">4</span> aug
+                    <span class="">4</span> aug
                   </button>
                 </li>
                 <li
@@ -238,7 +236,7 @@
                   :style="programdag === 'fredag' && { backgroundColor: '#92A377' }"
                 >
                   <button x-on:click="programdag = 'fredag'">
-                    <span class="text-h2_mobil lg:text-h2_web">5</span> aug
+                    <span class="">5</span> aug
                   </button>
                 </li>
                 <li
@@ -247,7 +245,7 @@
                   :style="programdag === 'loerdag' && { backgroundColor: '#92A377' }"
                 >
                   <button x-on:click="programdag = 'loerdag'">
-                    <span class="text-h2_mobil lg:text-h2_web">6</span> aug
+                    <span class="">6</span> aug
                   </button>
                 </li>
               </ul>
@@ -564,7 +562,7 @@
       <section>
         <article class="pb-10">
           <div
-            class="mx-auto w-2/3 text-brodtekst_mobil lg:w-1/2 lg:text-brodtekst_web"
+            class="mx-auto w-2/3 text-center text-brodtekst_mobil lg:w-1/2 lg:text-h3_mobil"
           >
             <p>
               Er du interesseret i at se Vildskuds tidligere forestillinger?
@@ -583,53 +581,56 @@
       <div class="grid grid-cols-2 gap-10 p-5">
         <div class="lg:mx-auto">
           <a href="index.html"
-            ><h4 class="text-brodtekst_web font-bold lg:text-h3_mobil">
+            ><h4 class="text-h5_mobil font-bold lg:text-h3_mobil">
               VILDSKUD
             </h4></a
           >
-
-          <p class="text-footer_mobil lg:text-brodtekst_mobil">
-            Vildskud er Københavns største og eneste scenekunstfestival.
-          </p>
-          <p class="text-footer_mobil lg:text-brodtekst_mobil">
-            Hver sommer fylder vi gaderne med scenekunst, liv og glade dage.
-          </p>
+          <div class="pt-2">
+            <p class="text-footer_mobil lg:text-brodtekst_mobil">
+              Vildskud er Københavns største og eneste scenekunstfestival.
+            </p>
+            <p class="text-footer_mobil lg:text-brodtekst_mobil">
+              Hver sommer fylder vi gaderne med scenekunst, liv og glade dage.
+            </p>
+          </div>
         </div>
 
         <div class="lg:mx-auto">
-          <h4 class="text-brodtekst_web font-bold lg:text-h3_mobil">
+          <h4 class="text-h5_mobil font-bold lg:text-h4_mobil">
             VI ELSKER BÆREDYGTIGHED
           </h4>
-          <p class="text-footer_mobil lg:text-brodtekst_mobil">
-            Hos Vildskud gør vi meget for ikke at belaste vores jord.
-          </p>
-          <p class="text-footer_mobil lg:text-brodtekst_mobil">
-            Vi ønsker ikke at udlede mere CO2 end nødvendigt!
-          </p>
+          <div class="pt-2">
+            <p class="text-footer_mobil lg:text-brodtekst_mobil">
+              Hos Vildskud gør vi meget for ikke at belaste vores jord.
+            </p>
+            <p class="text-footer_mobil lg:text-brodtekst_mobil">
+              Vi ønsker ikke at udlede mere CO2 end nødvendigt!
+            </p>
+          </div>
         </div>
       </div>
 
-      <div class="grid grid-cols-4 p-5 text-center lg:relative lg:pb-10">
-        <a class="text-brodtekst_mobil underline lg:text-h3_mobil" href=""
+      <div class="grid grid-cols-4 gap-5 p-5 text-center lg:relative lg:pb-10">
+        <a class="text-footer_mobil underline lg:text-footer_web" href=""
           >Facebook</a
         >
-        <a class="text-brodtekst_mobil underline lg:text-h3_mobil" href=""
+        <a class="pl-3 text-footer_mobil underline lg:text-footer_web" href=""
           >Instagram</a
         >
         <a
-          class="pl-5 text-brodtekst_mobil underline lg:text-h3_mobil"
+          class="pl-7 text-footer_mobil underline lg:text-footer_web"
           href="kontakt.html"
           >FAQ</a
         >
         <a
-          class="pr-5 text-brodtekst_mobil underline lg:pr-0 lg:text-h3_mobil"
+          class="pr-5 text-footer_mobil underline lg:pr-0 lg:text-footer_web"
           href="kontakt.html"
           >Kontakt</a
         >
       </div>
 
       <div
-        class="flex justify-evenly bg-beige py-2 text-footer_mobil_links lg:text-brodtekst_web"
+        class="flex justify-evenly bg-beige py-2 text-footer_mobil_links lg:text-footer_web_links"
       >
         <a href="">Cookiepolitik</a>
         <a href="">Privatlivspolitik</a>

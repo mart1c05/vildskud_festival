@@ -6,11 +6,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Vildskud Festival - Kontakt</title>
     <script type="module" crossorigin src="./assets/main.998dc7e8.js"></script>
-    <link rel="stylesheet" href="./assets/main.98e843ac.css">
+    <link rel="stylesheet" href="./assets/main.76fdb080.css">
   </head>
-  <body>
+  <body class="overflow-x-hidden bg-baggrund">
     <!-- HEADER -->
-    <header class="border-black border-b">
+    <header class="border-black relative border-b">
       <nav class="flex justify-between p-2">
         <!-- HEADER NAVIGATION MOBIL START -->
         <div class="lg:hidden">
@@ -31,7 +31,7 @@
 
             <ul
               tabindex="0"
-              class="border-black dropdown-content menu menu-compact absolute -left-[47vh] top-[6.25vh] w-[60vh] border border-solid bg-hvid p-5"
+              class="border-black dropdown-content menu menu-compact absolute -left-[47vh] top-[6.25vh] w-[100vw] border border-solid bg-hvid p-5"
             >
               <li>
                 <a
@@ -51,7 +51,7 @@
                       /></svg></span
                 ></a>
 
-                <ul class="relative left-0 gap-5 bg-baggrund shadow-inner">
+                <ul class="left-0 gap-5 bg-baggrund shadow-inner">
                   <li>
                     <a class="pl-5 text-brodtekst_web" href="frivillig.html"
                       >Bliv Frivillig</a
@@ -175,10 +175,10 @@
       <!-- START SEKTION -->
       <section>
         <article>
-          <h1 class="flex justify-center text-h1_mobil lg:text-h1_web">
+          <h1 class="flex justify-center py-10 text-h1_mobil lg:text-h1_web">
             Kontakt
           </h1>
-          <div class="px-10 lg:px-32">
+          <div class="px-10 lg:px-32 lg:text-center">
             <p class="text-brodtekst_mobil lg:text-brodtekst_web">Hejsa!</p>
             <p class="text-brodtekst_mobil lg:text-brodtekst_web">
               Har du spørgsmål vedr. festivalen kan du måske finde dit svar
@@ -190,16 +190,19 @@
       <!-- FAQ SEKTION -->
       <section class="px-10 pt-10 lg:px-32">
         <!-- SPØRGSMÅL 1 -->
-        <article class="">
+        <article class="lg:mx-auto lg:w-1/2">
           <!-- tilføjet scheam markup -->
-          <h2 itemprop="about" class="text-center text-h2_mobil lg:text-h2_web">
+          <h2
+            itemprop="about"
+            class="py-5 text-center text-h2_mobil lg:text-h2_web"
+          >
             FAQ
           </h2>
           <div tabindex="0" class="collapse border-2 border-morkegron">
-            <div class="collapse-title pr-0">
+            <div class="collapse-title p-2 hover:cursor-pointer">
               <h4
                 itemprop="about"
-                class="text-center text-h4_mobil lg:text-h4_web"
+                class="text-center text-h5_mobil lg:text-h5_web"
               >
                 Hvordan kan jeg blive frivillig hos på festivalen?
               </h4>
@@ -249,13 +252,13 @@
           </div>
         </article>
         <!-- SPØRGSMÅL 2 -->
-        <article>
+        <article class="lg:mx-auto lg:w-1/2">
           <div tabindex="0" class="collapse mt-2 border-2 border-morkegron">
-            <div class="collapse-title pr-0 hover:cursor-pointer">
+            <div class="collapse-title p-2 pr-0 hover:cursor-pointer">
               <!-- tilføjet scheam markup -->
               <h4
                 itemprop="about"
-                class="text-center text-h4_mobil lg:text-h4_web"
+                class="text-center text-h5_mobil lg:text-h5_web"
               >
                 Hvad koster en endagsbillet?
               </h4>
@@ -288,12 +291,12 @@
           </div>
         </article>
         <!-- SPØRGSMÅL 3 -->
-        <article>
+        <article class="lg:mx-auto lg:w-1/2">
           <div tabindex="0" class="collapse mt-2 border-2 border-morkegron">
-            <div class="collapse-title pr-0 hover:cursor-pointer">
+            <div class="collapse-title p-2 pr-0 hover:cursor-pointer">
               <h4
                 itemprop="about"
-                class="text-center text-h4_mobil lg:text-h4_web"
+                class="text-center text-h5_mobil lg:text-h5_web"
               >
                 Hvor finder jeg et program over scenerne?
               </h4>
@@ -328,7 +331,9 @@
         <!-- INTET SVAR? -->
         <article>
           <div class="pt-10">
-            <p class="text-brodtekst_mobil lg:text-brodtekst_web">
+            <p
+              class="text-brodtekst_mobil lg:text-center lg:text-brodtekst_web"
+            >
               Hvis du ikke fandt dit svar, så skriv gerne til os i formularen
               herunder:
             </p>
@@ -337,22 +342,22 @@
       </section>
       <!-- KONTAKTFORMULAR SEKTION -->
       <section>
-        <article class="p-10 pt-8 lg:px-32">
+        <article class="p-10 pt-0 lg:px-32">
           <div>
             <h2
-              class="flex justify-center text-h2_mobil lg:flex lg:justify-start lg:pt-20 lg:text-h2_web"
+              class="flex justify-center text-h2_mobil lg:pt-20 lg:text-center lg:text-h2_web"
             >
               Kontaktformular
             </h2>
           </div>
           <!-- FORM -->
           <div class="pt-10">
-            <form action="">
+            <form action="" class="lg:mx-auto lg:w-10/12">
               <div class="lg:flex lg:gap-48">
                 <div>
                   <div class="pt-5">
                     <div>
-                      <label class="text-h3_mobil lg:text-h3_web" for=""
+                      <label class="text-h5_mobil lg:text-h5_web" for=""
                         ><span class="text-orange">*</span>
                         <span>Fulde navn</span>
                       </label>
@@ -360,7 +365,7 @@
                     <br />
                     <div>
                       <input
-                        class="w-full py-5"
+                        class="w-full py-3"
                         required
                         placeholder="Fx. Jørgen Carlsen"
                         type="text"
@@ -368,14 +373,14 @@
                     </div>
                   </div>
                   <div class="pt-5">
-                    <label class="text-h3_mobil lg:text-h3_web" for="">
+                    <label class="text-h5_mobil lg:text-h5_web" for="">
                       <span class="text-orange">*</span>
                       <span class="">E-mail</span>
                     </label>
                     <br />
                     <div class="pt-3">
                       <input
-                        class="w-full py-5"
+                        class="w-full py-3"
                         required
                         placeholder="Fx. jørgen.carlsen@gmail.com"
                         type="email"
@@ -383,16 +388,16 @@
                     </div>
                   </div>
                   <div class="pt-5">
-                    <label class="text-h3_mobil lg:text-h3_web" for="">
+                    <label class="text-h5_mobil lg:text-h5_web" for="">
                       <span class="text-orange">*</span>
                       <span class="">Emne</span>
                     </label>
                     <br />
                     <div class="pt-3">
                       <input
-                        class="w-96 py-5"
+                        class="w-96 py-3"
                         required
-                        placeholder="Fx. samarbejdspartner"
+                        placeholder="Fx. Samarbejdspartner"
                         type="email"
                       />
                     </div>
@@ -400,7 +405,7 @@
                 </div>
                 <div>
                   <div class="pt-5">
-                    <label class="text-h3_mobil lg:text-h3_web" for=""
+                    <label class="text-h5_mobil lg:text-h5_web" for=""
                       ><span class="text-orange">*</span>
                       <span>Besked</span>
                     </label>
@@ -423,11 +428,11 @@
                   <span class="text-orange">*</span> Skal besvares
                 </p>
               </div>
-              <div class="pt-5">
+              <div class="pt-5 text-center">
                 <button
-                  class="mt-5 h-10 w-52 rounded-sm border-2 text-morkegron hover:bg-morkegron hover:text-hvid"
+                  class="rounded-sm border-2 border-morkegron px-3 text-morkegron hover:bg-morkegron hover:text-hvid lg:px-5 lg:text-brodtekst_web"
                 >
-                  <a class="text-h4_mobil" href="">Send formular</a>
+                  <a href="">Send Formular</a>
                 </button>
               </div>
             </form>
@@ -441,53 +446,56 @@
       <div class="grid grid-cols-2 gap-10 p-5">
         <div class="lg:mx-auto">
           <a href="index.html"
-            ><h4 class="text-brodtekst_web font-bold lg:text-h3_mobil">
+            ><h4 class="text-h5_mobil font-bold lg:text-h3_mobil">
               VILDSKUD
             </h4></a
           >
-
-          <p class="text-footer_mobil lg:text-brodtekst_mobil">
-            Vildskud er Københavns største og eneste scenekunstfestival.
-          </p>
-          <p class="text-footer_mobil lg:text-brodtekst_mobil">
-            Hver sommer fylder vi gaderne med scenekunst, liv og glade dage.
-          </p>
+          <div class="pt-2">
+            <p class="text-footer_mobil lg:text-brodtekst_mobil">
+              Vildskud er Københavns største og eneste scenekunstfestival.
+            </p>
+            <p class="text-footer_mobil lg:text-brodtekst_mobil">
+              Hver sommer fylder vi gaderne med scenekunst, liv og glade dage.
+            </p>
+          </div>
         </div>
 
         <div class="lg:mx-auto">
-          <h4 class="text-brodtekst_web font-bold lg:text-h3_mobil">
+          <h4 class="text-h5_mobil font-bold lg:text-h4_mobil">
             VI ELSKER BÆREDYGTIGHED
           </h4>
-          <p class="text-footer_mobil lg:text-brodtekst_mobil">
-            Hos Vildskud gør vi meget for ikke at belaste vores jord.
-          </p>
-          <p class="text-footer_mobil lg:text-brodtekst_mobil">
-            Vi ønsker ikke at udlede mere CO2 end nødvendigt!
-          </p>
+          <div class="pt-2">
+            <p class="text-footer_mobil lg:text-brodtekst_mobil">
+              Hos Vildskud gør vi meget for ikke at belaste vores jord.
+            </p>
+            <p class="text-footer_mobil lg:text-brodtekst_mobil">
+              Vi ønsker ikke at udlede mere CO2 end nødvendigt!
+            </p>
+          </div>
         </div>
       </div>
 
-      <div class="grid grid-cols-4 p-5 text-center lg:relative lg:pb-10">
-        <a class="text-brodtekst_mobil underline lg:text-h3_mobil" href=""
+      <div class="grid grid-cols-4 gap-5 p-5 text-center lg:relative lg:pb-10">
+        <a class="text-footer_mobil underline lg:text-footer_web" href=""
           >Facebook</a
         >
-        <a class="text-brodtekst_mobil underline lg:text-h3_mobil" href=""
+        <a class="pl-3 text-footer_mobil underline lg:text-footer_web" href=""
           >Instagram</a
         >
         <a
-          class="pl-5 text-brodtekst_mobil underline lg:text-h3_mobil"
+          class="pl-7 text-footer_mobil underline lg:text-footer_web"
           href="kontakt.html"
           >FAQ</a
         >
         <a
-          class="pr-5 text-brodtekst_mobil underline lg:pr-0 lg:text-h3_mobil"
+          class="pr-5 text-footer_mobil underline lg:pr-0 lg:text-footer_web"
           href="kontakt.html"
           >Kontakt</a
         >
       </div>
 
       <div
-        class="flex justify-evenly bg-beige py-2 text-footer_mobil_links lg:text-brodtekst_web"
+        class="flex justify-evenly bg-beige py-2 text-footer_mobil_links lg:text-footer_web_links"
       >
         <a href="">Cookiepolitik</a>
         <a href="">Privatlivspolitik</a>

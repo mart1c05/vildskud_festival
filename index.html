@@ -6,11 +6,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Vildskud Festival for Scenekunst</title>
     <script type="module" crossorigin src="./assets/main.998dc7e8.js"></script>
-    <link rel="stylesheet" href="./assets/main.98e843ac.css">
+    <link rel="stylesheet" href="./assets/main.76fdb080.css">
   </head>
   <body class="overflow-x-hidden">
     <!-- HEADER -->
-    <header class="border-black border-b">
+    <header class="border-black relative border-b">
       <nav class="flex justify-between p-2">
         <!-- HEADER NAVIGATION MOBIL START -->
         <div class="lg:hidden">
@@ -31,7 +31,7 @@
 
             <ul
               tabindex="0"
-              class="border-black dropdown-content menu menu-compact absolute -left-[47vh] top-[6.25vh] w-[60vh] border border-solid bg-hvid p-5"
+              class="border-black dropdown-content menu menu-compact absolute -left-[47vh] top-[6.25vh] w-[100vw] border border-solid bg-hvid p-5"
             >
               <li>
                 <a
@@ -51,7 +51,7 @@
                       /></svg></span
                 ></a>
 
-                <ul class="relative left-0 gap-5 bg-baggrund shadow-inner">
+                <ul class="left-0 gap-5 bg-baggrund shadow-inner">
                   <li>
                     <a class="pl-5 text-brodtekst_web" href="frivillig.html"
                       >Bliv Frivillig</a
@@ -168,7 +168,7 @@
       </nav>
     </header>
 
-    <main class="relative bg-baggrund">
+    <main class="bg-baggrund">
       <!-- HERO SEKTION -->
       <section>
         <!-- HERO BILLEDE -->
@@ -177,11 +177,11 @@
             <h1>VILDSKUD</h1>
           </div>
 
-          <div class="flex justify-between bg-lysegron p-2 text-h2_mobil">
+          <div class="flex flex-col bg-lysegron p-2 text-center text-h2_mobil">
             <div><h2>KØBENHAVN</h2></div>
-            <div><h2>2-6 AUGUST</h2></div>
+            <div><h2>2.-6. AUGUST</h2></div>
           </div>
-          <div class="bg-morkegron text-center text-h2_mobil tracking-wide">
+          <div class="bg-morkegron text-center text-h2_mobil">
             <h2>FESTIVAL FOR SCENEKUNST</h2>
           </div>
 
@@ -192,7 +192,7 @@
 
         <article class="hidden lg:flex">
           <div
-            class="-z-20 flex flex-col bg-beige p-10 pt-3 text-center text-hero_h1 tracking-widest"
+            class="-z-20 flex flex-col bg-beige p-10 pt-0 text-center text-hero_h1 tracking-widest"
           >
             <h2>VI</h2>
             <h2>LD</h2>
@@ -204,8 +204,8 @@
               <div><h2>KØBENHAVN</h2></div>
               <div><h2>2.-6. AUGUST</h2></div>
             </div>
-            <div class="flex gap-20 bg-morkegron px-5 text-h2_web">
-              <div class="flex gap-7">
+            <div class="flex gap-10 bg-morkegron px-5 text-h2_web">
+              <div class="flex gap-2">
                 <h2>F</h2>
                 <h2>E</h2>
                 <h2>S</h2>
@@ -215,12 +215,12 @@
                 <h2>A</h2>
                 <h2>L</h2>
               </div>
-              <div class="flex gap-7">
+              <div class="flex gap-2">
                 <h2>F</h2>
                 <h2>O</h2>
                 <h2>R</h2>
               </div>
-              <div class="flex gap-7">
+              <div class="flex gap-2">
                 <h2>S</h2>
                 <h2>C</h2>
                 <h2>E</h2>
@@ -233,22 +233,26 @@
                 <h2>T</h2>
               </div>
             </div>
-            <div class="absolute right-8 top-72 -z-10 scale-125">
-              <img src="./assets/hero_web.2d92cd8c.svg" alt="" />
+            <div class="scale-125">
+              <img class="absolute -left-20" src="./assets/hero_web2.bbe30077.svg" alt="" />
             </div>
           </div>
         </article>
         <!-- BILLET KNAP -->
+      </section>
+
+      <!-- OVERBLIK FORSIDE SEKTION -->
+      <section>
         <article>
-          <div class="flex justify-center lg:mt-44">
-            <button class="text-h2_mobil underline">
-              <a href="billet.html">Gå til billetsiden</a>
+          <div class="relative text-center lg:mt-44">
+            <button class="">
+              <a class="text-h2_mobil underline" href="billet.html"
+                >Gå til billetsiden</a
+              >
             </button>
           </div>
         </article>
       </section>
-
-      <!-- OVERBLIK FORSIDE SEKTION -->
       <section class="mb-20 grid grid-cols-2 px-10 lg:px-32">
         <!-- PROGRAM DEL -->
         <article class="row-start-1 my-5">
@@ -260,7 +264,7 @@
           </div>
           <div>
             <button
-              class="border-black my-3 rounded-sm border bg-hvid px-10 text-sort hover:bg-orange hover:text-sort lg:px-5 lg:text-h5_web"
+              class="border-black my-3 rounded-sm border bg-hvid p-5 py-2 text-brodtekst_mobil text-sort hover:bg-orange hover:text-sort lg:px-5 lg:text-h5_web"
             >
               <a href="program.html">Læs mere</a>
             </button>
@@ -280,7 +284,7 @@
           </div>
           <div>
             <button
-              class="border-black my-3 rounded-sm border bg-hvid px-10 text-sort hover:bg-morkegron hover:text-sort lg:px-5 lg:text-h5_web"
+              class="border-black my-3 rounded-sm border bg-hvid p-5 py-2 text-sort hover:bg-morkegron hover:text-sort lg:px-5 lg:text-h5_web"
             >
               <a href="om_vildskud.html">Læs mere</a>
             </button>
@@ -298,21 +302,21 @@
           </div>
           <div>
             <button
-              class="text-h3_mobil underline hover:text-orange lg:text-h5_web"
+              class="py-2 text-h3_mobil underline hover:text-orange lg:text-h5_web"
             >
               <a href="frivillig.html">Frivillig</a>
             </button>
           </div>
           <div>
             <button
-              class="text-h3_mobil underline hover:text-orange lg:text-h5_web"
+              class="py-2 text-h3_mobil underline hover:text-orange lg:text-h5_web"
             >
               <a href="arrangoer.html">Arrangør</a>
             </button>
           </div>
           <div>
             <button
-              class="text-h3_mobil underline hover:text-orange lg:text-h5_web"
+              class="py-2 text-h3_mobil underline hover:text-orange lg:text-h5_web"
             >
               <a href="line_up.html">Line-up</a>
             </button>
@@ -333,7 +337,7 @@
           </div>
           <div>
             <button
-              class="border-black my-3 rounded-sm border bg-hvid px-10 text-sort hover:bg-morkegron hover:text-sort lg:px-5 lg:text-h5_web"
+              class="border-black my-3 rounded-sm border bg-hvid p-5 py-2 text-sort hover:bg-morkegron hover:text-sort lg:px-5 lg:text-h5_web"
             >
               <a href="teamet_bag.html">Læs mere</a>
             </button>
@@ -392,53 +396,56 @@
       <div class="grid grid-cols-2 gap-10 p-5">
         <div class="lg:mx-auto">
           <a href="index.html"
-            ><h4 class="text-brodtekst_web font-bold lg:text-h3_mobil">
+            ><h4 class="text-h5_mobil font-bold lg:text-h3_mobil">
               VILDSKUD
             </h4></a
           >
-
-          <p class="text-footer_mobil lg:text-brodtekst_mobil">
-            Vildskud er Københavns største og eneste scenekunstfestival.
-          </p>
-          <p class="text-footer_mobil lg:text-brodtekst_mobil">
-            Hver sommer fylder vi gaderne med scenekunst, liv og glade dage.
-          </p>
+          <div class="pt-2">
+            <p class="text-footer_mobil lg:text-brodtekst_mobil">
+              Vildskud er Københavns største og eneste scenekunstfestival.
+            </p>
+            <p class="text-footer_mobil lg:text-brodtekst_mobil">
+              Hver sommer fylder vi gaderne med scenekunst, liv og glade dage.
+            </p>
+          </div>
         </div>
 
         <div class="lg:mx-auto">
-          <h4 class="text-brodtekst_web font-bold lg:text-h3_mobil">
+          <h4 class="text-h5_mobil font-bold lg:text-h4_mobil">
             VI ELSKER BÆREDYGTIGHED
           </h4>
-          <p class="text-footer_mobil lg:text-brodtekst_mobil">
-            Hos Vildskud gør vi meget for ikke at belaste vores jord.
-          </p>
-          <p class="text-footer_mobil lg:text-brodtekst_mobil">
-            Vi ønsker ikke at udlede mere CO2 end nødvendigt!
-          </p>
+          <div class="pt-2">
+            <p class="text-footer_mobil lg:text-brodtekst_mobil">
+              Hos Vildskud gør vi meget for ikke at belaste vores jord.
+            </p>
+            <p class="text-footer_mobil lg:text-brodtekst_mobil">
+              Vi ønsker ikke at udlede mere CO2 end nødvendigt!
+            </p>
+          </div>
         </div>
       </div>
 
-      <div class="grid grid-cols-4 p-5 text-center lg:relative lg:pb-10">
-        <a class="text-brodtekst_mobil underline lg:text-h3_mobil" href=""
+      <div class="grid grid-cols-4 gap-5 p-5 text-center lg:relative lg:pb-10">
+        <a class="text-footer_mobil underline lg:text-footer_web" href=""
           >Facebook</a
         >
-        <a class="text-brodtekst_mobil underline lg:text-h3_mobil" href=""
+        <a class="pl-3 text-footer_mobil underline lg:text-footer_web" href=""
           >Instagram</a
         >
         <a
-          class="pl-5 text-brodtekst_mobil underline lg:text-h3_mobil"
+          class="pl-7 text-footer_mobil underline lg:text-footer_web"
           href="kontakt.html"
           >FAQ</a
         >
         <a
-          class="pr-5 text-brodtekst_mobil underline lg:pr-0 lg:text-h3_mobil"
+          class="pr-5 text-footer_mobil underline lg:pr-0 lg:text-footer_web"
           href="kontakt.html"
           >Kontakt</a
         >
       </div>
 
       <div
-        class="flex justify-evenly bg-beige py-2 text-footer_mobil_links lg:text-brodtekst_web"
+        class="flex justify-evenly bg-beige py-2 text-footer_mobil_links lg:text-footer_web_links"
       >
         <a href="">Cookiepolitik</a>
         <a href="">Privatlivspolitik</a>
