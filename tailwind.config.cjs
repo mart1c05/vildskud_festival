@@ -17,8 +17,8 @@ module.exports = {
     fontSize: {
       h1_mobil: "3rem",
       h2_mobil: "2rem",
-      h3_mobil: "2rem",
-      h4_mobil: "1.5rem",
+      h3_mobil: "1.5rem",
+      h4_mobil: "1.3rem",
       h5_mobil: "1.2rem",
       brodtekst_mobil: "1rem",
       footer_mobil: "0.8rem",
@@ -28,7 +28,7 @@ module.exports = {
       h3_web: "3.125rem",
       h4_web: "2.8rem",
       h5_web: "1.5rem",
-      brodtekst_web: "1.3rem",
+      brodtekst_web: "1rem",
       hero_h1: "7rem",
     },
 

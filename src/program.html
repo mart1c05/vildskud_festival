@@ -8,7 +8,7 @@
   </head>
   <body class="overflow-x-hidden bg-baggrund">
     <!-- HEADER -->
-    <header class="border-black border-b">
+    <header class="border-black header_text border-b">
       <nav class="flex justify-between p-2">
         <!-- HEADER NAVIGATION MOBIL START -->
         <div class="lg:hidden">
@@ -178,7 +178,7 @@
             <h1 class="text-center text-h1_mobil lg:text-h1_web">Program</h1>
           </div>
           <div>
-            <h3 class="text-center text-h3_mobil lg:text-h3_web">
+            <h3 class="py-10 text-center text-h3_mobil lg:text-h3_web">
               Se <span class="text-orange">programmet</span> herunder
             </h3>
           </div>
@@ -199,7 +199,7 @@
                   <button itemprop="doorTime" @click="programdag = 'tirsdag'">
                     <span
                       itemprop="doorTime"
-                      class="text-h2_mobil lg:text-h2_web"
+                      class="text-h3_mobil lg:text-h3_web"
                       >2</span
                     >
                     aug
@@ -216,7 +216,7 @@
                   >
                     <span
                       itemprop="doorTime"
-                      class="text-h2_mobil lg:text-h2_web"
+                      class="text-h3_mobil lg:text-h3_web"
                       >3</span
                     >
                     aug
@@ -227,7 +227,7 @@
                   :style="programdag === 'torsdag' && { backgroundColor: '#92A377' }"
                 >
                   <button x-on:click="programdag = 'torsdag'">
-                    <span class="text-h2_mobil lg:text-h2_web">4</span> aug
+                    <span class="text-h3_mobil lg:text-h3_web">4</span> aug
                   </button>
                 </li>
                 <li
@@ -236,7 +236,7 @@
                   :style="programdag === 'fredag' && { backgroundColor: '#92A377' }"
                 >
                   <button x-on:click="programdag = 'fredag'">
-                    <span class="text-h2_mobil lg:text-h2_web">5</span> aug
+                    <span class="text-h3_mobil lg:text-h3_web">5</span> aug
                   </button>
                 </li>
                 <li
@@ -245,7 +245,7 @@
                   :style="programdag === 'loerdag' && { backgroundColor: '#92A377' }"
                 >
                   <button x-on:click="programdag = 'loerdag'">
-                    <span class="text-h2_mobil lg:text-h2_web">6</span> aug
+                    <span class="text-h3_mobil lg:text-h3_web">6</span> aug
                   </button>
                 </li>
               </ul>
