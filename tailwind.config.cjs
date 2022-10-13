@@ -30,6 +30,8 @@ module.exports = {
       h5_web: "1.5rem",
       brodtekst_web: "1.3rem",
       hero_h1: "7rem",
+      footer_web: "1rem",
+      footer_web_links: "0.8rem",
     },
 
     extend: {},
