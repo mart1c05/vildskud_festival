@@ -7,15 +7,16 @@
     <title>Vildskud Festival - Kontakt</title>
   </head>
   <body>
-    <header class="border-b border-black">
-      <nav class="navbar p-2">
+    <!-- HEADER -->
+    <header class="border-black border-b">
+      <nav class="flex justify-between p-2">
         <!-- HEADER NAVIGATION MOBIL START -->
         <div class="lg:hidden">
           <a href="index.html">
             <img class="w-7" src="Vildskud_logo_mobil.svg" alt=""
           /></a>
         </div>
-        <div class="w-full justify-end gap-2 lg:hidden">
+        <div class="flex justify-between gap-2 pl-80 lg:hidden">
           <div class="dropdown">
             <label tabindex="0" class="hover:bg-transparent lg:hidden">
               <svg width="32" height="32" viewBox="0 0 512 512">
@@ -28,37 +29,39 @@
 
             <ul
               tabindex="0"
-              class="dropdown-content menu menu-compact bg-hvid absolute -left-[51vh] w-[61.88vh] border-y border-solid border-black p-5"
+              class="border-black dropdown-content menu menu-compact absolute -left-[47vh] top-[6.25vh] w-[60vh] border border-solid bg-hvid p-5"
             >
               <li>
-                <a class="text-h4_mobil justify-between" href="program.html"
+                <a
+                  class="justify-between pb-5 text-h4_mobil"
+                  href="program.html"
                   >Program</a
                 >
               </li>
               <li>
-                <a class="text-h4_mobil py-7" tabindex="0" href=""
+                <a class="py-7 text-h4_mobil" tabindex="0" href=""
                   >Vær Med
                   <span class=""
                     ><svg width="20" height="20" viewBox="0 0 24 24">
                       <path
-                        fill="#888888"
+                        fill="#000000"
                         d="m12 15.4l-6-6L7.4 8l4.6 4.6L16.6 8L18 9.4Z"
                       /></svg></span
                 ></a>
 
-                <ul class="bg-baggrund relative left-0 shadow-inner">
+                <ul class="relative left-0 gap-5 bg-baggrund shadow-inner">
                   <li>
-                    <a class="text-brodtekst_web" href="frivillig.html"
+                    <a class="pl-5 text-brodtekst_web" href="frivillig.html"
                       >Bliv Frivillig</a
                     >
                   </li>
                   <li>
-                    <a class="text-brodtekst_web" href="arrangoer.html"
+                    <a class="pl-5 text-brodtekst_web" href="arrangoer.html"
                       >Bliv Arrangør</a
                     >
                   </li>
                   <li>
-                    <a class="text-brodtekst_web" href="line_up.html"
+                    <a class="pl-5 text-brodtekst_web" href="line_up.html"
                       >Bliv en del af Line-up</a
                     >
                   </li>
@@ -66,17 +69,17 @@
               </li>
 
               <li>
-                <a class="text-h4_mobil py-7" href="om_vildskud.html"
+                <a class="py-7 text-h4_mobil" href="om_vildskud.html"
                   >Om Vildskud</a
                 >
               </li>
               <li>
-                <a class="text-h4_mobil py-7" href="teamet_bag.html"
+                <a class="py-7 text-h4_mobil" href="teamet_bag.html"
                   >Teamet Bag</a
                 >
               </li>
               <li>
-                <a class="text-h4_mobil py-7" href="kontakt.html">Kontakt</a>
+                <a class="py-7 text-h4_mobil" href="kontakt.html">Kontakt</a>
               </li>
             </ul>
           </div>
@@ -96,13 +99,14 @@
             <img class="w-56" src="Vildskud_logo.svg" alt=""
           /></a>
         </div>
-        <div class="w-full justify-end">
+        <div class="flex lg:pr-5">
           <div class="hidden lg:flex">
-            <ul tabindex="0" class="menu menu-horizontal z-10 flex gap-10 p-5">
+            <ul
+              tabindex="0"
+              class="menu menu-horizontal z-10 gap-10 p-5 lg:pr-5"
+            >
               <li>
-                <a class="focus:text-sort lg:text-h4_mobil" href="program.html"
-                  >Program</a
-                >
+                <a class="lg:text-h4_mobil" href="program.html">Program</a>
               </li>
               <li>
                 <a class="lg:text-h4_mobil" tabindex="0" href=""
@@ -115,20 +119,18 @@
                       /></svg></span
                 ></a>
 
-                <ul
-                  class="bg-hvid flex w-60 gap-5 border border-black shadow-inner"
-                >
-                  <li class="hover:bg-graagron p-5">
+                <ul class="border-black w-60 gap-5 border bg-hvid shadow-inner">
+                  <li class="p-5 hover:bg-graagron">
                     <a class="text-brodtekst_web" href="frivillig.html"
                       >Bliv Frivillig</a
                     >
                   </li>
-                  <li class="hover:bg-graagron p-5">
+                  <li class="p-5 hover:bg-graagron">
                     <a class="text-brodtekst_web" href="arrangoer.html"
                       >Bliv Arrangør</a
                     >
                   </li>
-                  <li class="hover:bg-graagron p-5">
+                  <li class="p-5 hover:bg-graagron">
                     <a class="text-brodtekst_web" href="line_up.html"
                       >Bliv en del af Line-up</a
                     >
@@ -151,7 +153,7 @@
               </li>
             </ul>
           </div>
-          <div class="hidden lg:block">
+          <div class="hidden lg:block lg:pt-6">
             <svg width="32" height="32" viewBox="0 0 24 24">
               <path
                 fill="#000000"
@@ -171,7 +173,7 @@
       <!-- START SEKTION -->
       <section>
         <article>
-          <h1 class="text-h1_mobil lg:text-h1_web flex justify-center">
+          <h1 class="flex justify-center text-h1_mobil lg:text-h1_web">
             Kontakt
           </h1>
           <div class="px-10 lg:px-32">
@@ -189,7 +191,7 @@
         <article>
           <!-- tilføjet scheam markup -->
           <h2 itemprop="about" class="text-h2_mobil lg:text-h2_web">FAQ</h2>
-          <div tabindex="0" class="collapse border-morkegron border-2">
+          <div tabindex="0" class="collapse border-2 border-morkegron">
             <div class="collapse-title pr-0">
               <h4 itemprop="about" class="text-h4_mobil lg:text-h4_web">
                 Hvordan kan jeg blive frivillig på festivalen?
@@ -231,7 +233,7 @@
 
               <div class="flex justify-center lg:pt-5">
                 <button
-                  class="border-morkegron hover:bg-morkegron hover:text-hvid rounded-sm border-2 px-3 lg:px-5"
+                  class="rounded-sm border-2 border-morkegron px-3 hover:bg-morkegron hover:text-hvid lg:px-5"
                 >
                   <a href="frivillig.html">Læs mere</a>
                 </button>
@@ -241,7 +243,7 @@
         </article>
         <!-- SPØRGSMÅL 2 -->
         <article>
-          <div tabindex="0" class="collapse border-morkegron mt-2 border-2">
+          <div tabindex="0" class="collapse mt-2 border-2 border-morkegron">
             <div class="collapse-title pr-0">
               <!-- tilføjet scheam markup -->
               <h4 itemprop="about" class="text-h4_mobil lg:text-h4_web">
@@ -265,7 +267,7 @@
               <p>Få adgang til alle forestillinger til en valgfri dag.</p>
               <div class="flex justify-center lg:pt-5">
                 <button
-                  class="border-morkegron hover:bg-morkegron hover:text-hvid lg:text-brodtekst_web rounded-sm border-2 px-3 lg:px-5"
+                  class="rounded-sm border-2 border-morkegron px-3 hover:bg-morkegron hover:text-hvid lg:px-5 lg:text-brodtekst_web"
                 >
                   <a href="frivillig.html">Læs mere</a>
                 </button>
@@ -275,7 +277,7 @@
         </article>
         <!-- SPØRGSMÅL 3 -->
         <article>
-          <div tabindex="0" class="collapse border-morkegron mt-2 border-2">
+          <div tabindex="0" class="collapse mt-2 border-2 border-morkegron">
             <div class="collapse-title pr-0">
               <h4 itemprop="about" class="text-h4_mobil lg:text-h4_web">
                 Hvor finder jeg et program over scenerne?
@@ -299,7 +301,7 @@
               <div class="flex justify-center lg:pt-5">
                 <button
                   itemprop="url"
-                  class="lg:text-brodtekst_we border-morkegron hover:bg-morkegron hover:text-hvid rounded-sm border-2 px-3 lg:px-5"
+                  class="lg:text-brodtekst_we rounded-sm border-2 border-morkegron px-3 hover:bg-morkegron hover:text-hvid lg:px-5"
                 >
                   <a href="frivillig.html">Læs mere</a>
                 </button>
@@ -321,7 +323,7 @@
         <article class="p-10 pt-8 lg:px-32">
           <div>
             <h2
-              class="text-h2_mobil lg:text-h2_web flex justify-center lg:flex lg:justify-start lg:pt-20"
+              class="flex justify-center text-h2_mobil lg:flex lg:justify-start lg:pt-20 lg:text-h2_web"
             >
               Kontaktformular
             </h2>
@@ -406,7 +408,7 @@
               </div>
               <div class="pt-5">
                 <button
-                  class="border-morkegron text-morkegron hover:bg-morkegron hover:text-hvid lg:text-brodtekst_web rounded-sm border-2 px-3 lg:px-5"
+                  class="rounded-sm border-2 border-morkegron px-3 text-morkegron hover:bg-morkegron hover:text-hvid lg:px-5 lg:text-brodtekst_web"
                 >
                   <input type="submit" value="SEND FORMULAR" />
                 </button>
@@ -422,7 +424,7 @@
       <div class="grid grid-cols-2 gap-10 p-5">
         <div class="lg:mx-auto">
           <a href="index.html"
-            ><h4 class="text-brodtekst_web lg:text-h3_mobil font-bold">
+            ><h4 class="text-brodtekst_web font-bold lg:text-h3_mobil">
               VILDSKUD
             </h4></a
           >
@@ -436,7 +438,7 @@
         </div>
 
         <div class="lg:mx-auto">
-          <h4 class="text-brodtekst_web lg:text-h3_mobil font-bold">
+          <h4 class="text-brodtekst_web font-bold lg:text-h3_mobil">
             VI ELSKER BÆREDYGTIGHED
           </h4>
           <p class="text-footer_mobil lg:text-brodtekst_mobil">
@@ -449,26 +451,26 @@
       </div>
 
       <div class="grid grid-cols-4 p-5 text-center lg:relative lg:pb-10">
-        <a class="text-brodtekst_mobil lg:text-h3_mobil underline" href=""
+        <a class="text-brodtekst_mobil underline lg:text-h3_mobil" href=""
           >Facebook</a
         >
-        <a class="text-brodtekst_mobil lg:text-h3_mobil underline" href=""
+        <a class="text-brodtekst_mobil underline lg:text-h3_mobil" href=""
           >Instagram</a
         >
         <a
-          class="text-brodtekst_mobil lg:text-h3_mobil pl-5 underline"
+          class="pl-5 text-brodtekst_mobil underline lg:text-h3_mobil"
           href="kontakt.html"
           >FAQ</a
         >
         <a
-          class="text-brodtekst_mobil lg:text-h3_mobil pr-5 underline lg:pr-0"
+          class="pr-5 text-brodtekst_mobil underline lg:pr-0 lg:text-h3_mobil"
           href="kontakt.html"
           >Kontakt</a
         >
       </div>
 
       <div
-        class="bg-beige text-footer_mobil_links lg:text-brodtekst_web flex justify-evenly py-2"
+        class="flex justify-evenly bg-beige py-2 text-footer_mobil_links lg:text-brodtekst_web"
       >
         <a href="">Cookiepolitik</a>
         <a href="">Privatlivspolitik</a>

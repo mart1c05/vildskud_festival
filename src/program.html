@@ -6,87 +6,90 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Vildskud Festival - Program 2022</title>
   </head>
-  <body class="bg-baggrund overflow-x-hidden">
-    <header class="border-b border-black">
-      <nav class="">
+  <body class="overflow-x-hidden bg-baggrund">
+    <!-- HEADER -->
+    <header class="border-black border-b">
+      <nav class="flex justify-between p-2">
         <!-- HEADER NAVIGATION MOBIL START -->
-        <div class="">
-          <div class="lg:hidden">
-            <a href="index.html">
-              <img class="" src="Vildskud_logo_mobil.svg" alt=""
-            /></a>
-          </div>
-          <div class="lg:hidden">
-            <div class="dropdown">
-              <label tabindex="0" class="hover:bg-transparent lg:hidden">
-                <svg width="32" height="32" viewBox="0 0 512 512">
-                  <path
-                    d="M64 384h384v-42.666H64V384zm0-106.666h384v-42.667H64v42.667zM64 128v42.665h384V128H64z"
-                    fill="#000000"
-                  />
-                </svg>
-              </label>
-
-              <ul
-                tabindex="0"
-                class="dropdown-content menu menu-compact bg-hvid border-y border-solid border-black p-5"
-              >
-                <li>
-                  <a class="text-h4_mobil" href="program.html">Program</a>
-                </li>
-                <li>
-                  <a class="text-h4_mobil py-7" tabindex="0" href=""
-                    >Vær Med
-                    <span class=""
-                      ><svg width="20" height="20" viewBox="0 0 24 24">
-                        <path
-                          fill="#888888"
-                          d="m12 15.4l-6-6L7.4 8l4.6 4.6L16.6 8L18 9.4Z"
-                        /></svg></span
-                  ></a>
-
-                  <ul class="bg-baggrund relative left-0 shadow-inner">
-                    <li>
-                      <a class="text-brodtekst_web" href="frivillig.html"
-                        >Bliv Frivillig</a
-                      >
-                    </li>
-                    <li>
-                      <a class="text-brodtekst_web" href="arrangoer.html"
-                        >Bliv Arrangør</a
-                      >
-                    </li>
-                    <li>
-                      <a class="text-brodtekst_web" href="line_up.html"
-                        >Bliv en del af Line-up</a
-                      >
-                    </li>
-                  </ul>
-                </li>
-
-                <li>
-                  <a class="text-h4_mobil py-7" href="om_vildskud.html"
-                    >Om Vildskud</a
-                  >
-                </li>
-                <li>
-                  <a class="text-h4_mobil py-7" href="teamet_bag.html"
-                    >Teamet Bag</a
-                  >
-                </li>
-                <li>
-                  <a class="text-h4_mobil py-7" href="kontakt.html">Kontakt</a>
-                </li>
-              </ul>
-            </div>
-            <div class="lg:hidden">
-              <svg width="32" height="32" viewBox="0 0 24 24">
+        <div class="lg:hidden">
+          <a href="index.html">
+            <img class="w-7" src="Vildskud_logo_mobil.svg" alt=""
+          /></a>
+        </div>
+        <div class="flex justify-between gap-2 pl-80 lg:hidden">
+          <div class="dropdown">
+            <label tabindex="0" class="hover:bg-transparent lg:hidden">
+              <svg width="32" height="32" viewBox="0 0 512 512">
                 <path
+                  d="M64 384h384v-42.666H64V384zm0-106.666h384v-42.667H64v42.667zM64 128v42.665h384V128H64z"
                   fill="#000000"
-                  d="M15.5 14h-.79l-.28-.27A6.471 6.471 0 0 0 16 9.5A6.5 6.5 0 1 0 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5S14 7.01 14 9.5S11.99 14 9.5 14z"
                 />
               </svg>
-            </div>
+            </label>
+
+            <ul
+              tabindex="0"
+              class="border-black dropdown-content menu menu-compact absolute -left-[47vh] top-[6.25vh] w-[60vh] border border-solid bg-hvid p-5"
+            >
+              <li>
+                <a
+                  class="justify-between pb-5 text-h4_mobil"
+                  href="program.html"
+                  >Program</a
+                >
+              </li>
+              <li>
+                <a class="py-7 text-h4_mobil" tabindex="0" href=""
+                  >Vær Med
+                  <span class=""
+                    ><svg width="20" height="20" viewBox="0 0 24 24">
+                      <path
+                        fill="#000000"
+                        d="m12 15.4l-6-6L7.4 8l4.6 4.6L16.6 8L18 9.4Z"
+                      /></svg></span
+                ></a>
+
+                <ul class="relative left-0 gap-5 bg-baggrund shadow-inner">
+                  <li>
+                    <a class="pl-5 text-brodtekst_web" href="frivillig.html"
+                      >Bliv Frivillig</a
+                    >
+                  </li>
+                  <li>
+                    <a class="pl-5 text-brodtekst_web" href="arrangoer.html"
+                      >Bliv Arrangør</a
+                    >
+                  </li>
+                  <li>
+                    <a class="pl-5 text-brodtekst_web" href="line_up.html"
+                      >Bliv en del af Line-up</a
+                    >
+                  </li>
+                </ul>
+              </li>
+
+              <li>
+                <a class="py-7 text-h4_mobil" href="om_vildskud.html"
+                  >Om Vildskud</a
+                >
+              </li>
+              <li>
+                <a class="py-7 text-h4_mobil" href="teamet_bag.html"
+                  >Teamet Bag</a
+                >
+              </li>
+              <li>
+                <a class="py-7 text-h4_mobil" href="kontakt.html">Kontakt</a>
+              </li>
+            </ul>
+          </div>
+          <div class="lg:hidden">
+            <svg width="32" height="32" viewBox="0 0 24 24">
+              <path
+                fill="#000000"
+                d="M15.5 14h-.79l-.28-.27A6.471 6.471 0 0 0 16 9.5A6.5 6.5 0 1 0 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5S14 7.01 14 9.5S11.99 14 9.5 14z"
+              />
+            </svg>
           </div>
         </div>
         <!-- HEADER NAVIGATION MOBIL SLUT -->
@@ -96,16 +99,14 @@
             <img class="w-56" src="Vildskud_logo.svg" alt=""
           /></a>
         </div>
-        <div class="hidden lg:w-full lg:justify-end">
+        <div class="flex lg:pr-5">
           <div class="hidden lg:flex">
             <ul
               tabindex="0"
-              class="menu menu-horizontal z-10 p-5 lg:flex lg:gap-10"
+              class="menu menu-horizontal z-10 gap-10 p-5 lg:pr-5"
             >
               <li>
-                <a class="focus:text-sort lg:text-h4_mobil" href="program.html"
-                  >Program</a
-                >
+                <a class="lg:text-h4_mobil" href="program.html">Program</a>
               </li>
               <li>
                 <a class="lg:text-h4_mobil" tabindex="0" href=""
@@ -118,20 +119,18 @@
                       /></svg></span
                 ></a>
 
-                <ul
-                  class="bg-hvid flex w-60 gap-5 border border-black shadow-inner"
-                >
-                  <li class="hover:bg-beige p-5">
+                <ul class="border-black w-60 gap-5 border bg-hvid shadow-inner">
+                  <li class="p-5 hover:bg-graagron">
                     <a class="text-brodtekst_web" href="frivillig.html"
                       >Bliv Frivillig</a
                     >
                   </li>
-                  <li class="p-5">
+                  <li class="p-5 hover:bg-graagron">
                     <a class="text-brodtekst_web" href="arrangoer.html"
                       >Bliv Arrangør</a
                     >
                   </li>
-                  <li class="p-5">
+                  <li class="p-5 hover:bg-graagron">
                     <a class="text-brodtekst_web" href="line_up.html"
                       >Bliv en del af Line-up</a
                     >
@@ -154,7 +153,7 @@
               </li>
             </ul>
           </div>
-          <div class="hidden lg:block">
+          <div class="hidden lg:block lg:pt-6">
             <svg width="32" height="32" viewBox="0 0 24 24">
               <path
                 fill="#000000"
@@ -176,10 +175,10 @@
       <section>
         <article class="">
           <div>
-            <h1 class="text-h1_mobil lg:text-h1_web text-center">Program</h1>
+            <h1 class="text-center text-h1_mobil lg:text-h1_web">Program</h1>
           </div>
           <div>
-            <h3 class="text-h3_mobil lg:text-h3_web text-center">
+            <h3 class="text-center text-h3_mobil lg:text-h3_web">
               Se <span class="text-orange">programmet</span> herunder
             </h3>
           </div>
@@ -191,7 +190,7 @@
         >
           <article>
             <div class="">
-              <ul class="text-h4_mobil lg:text-h4_web flex list-none">
+              <ul class="flex list-none text-h4_mobil lg:text-h4_web">
                 <!-- tilføjet schema markup -->
                 <li
                   class="border-2 p-4"
@@ -260,7 +259,7 @@
           >
             <article class="">
               <div
-                class="bg-graagron text-brodtekst_mobil lg:text-brodtekst_web flex gap-10 p-3"
+                class="flex gap-10 bg-graagron p-3 text-brodtekst_mobil lg:text-brodtekst_web"
               >
                 <p itemprop="doorTime">18.30</p>
                 <div>
@@ -278,7 +277,7 @@
           >
             <article class="border-b-2">
               <div
-                class="bg-graagron text-brodtekst_mobil lg:text-brodtekst_web flex gap-10 p-3"
+                class="flex gap-10 bg-graagron p-3 text-brodtekst_mobil lg:text-brodtekst_web"
               >
                 <p itemprop="doorTime">16.15</p>
                 <div>
@@ -289,7 +288,7 @@
             </article>
             <article class="">
               <div
-                class="bg-graagron text-brodtekst_mobil lg:text-brodtekst_web flex gap-10 p-3"
+                class="flex gap-10 bg-graagron p-3 text-brodtekst_mobil lg:text-brodtekst_web"
               >
                 <p>20.00</p>
                 <div>
@@ -308,7 +307,7 @@
             >
               <article class="border-b-2">
                 <div
-                  class="bg-graagron text-brodtekst_mobil lg:text-brodtekst_web flex gap-10 p-3"
+                  class="flex gap-10 bg-graagron p-3 text-brodtekst_mobil lg:text-brodtekst_web"
                 >
                   <p>15.00</p>
                   <div>
@@ -319,7 +318,7 @@
               </article>
               <article class="border-b-2">
                 <div
-                  class="bg-graagron text-brodtekst_mobil lg:text-brodtekst_web flex gap-10 p-3"
+                  class="flex gap-10 bg-graagron p-3 text-brodtekst_mobil lg:text-brodtekst_web"
                 >
                   <p>16.45</p>
                   <div>
@@ -330,7 +329,7 @@
               </article>
               <article class="border-b-2">
                 <div
-                  class="bg-graagron text-brodtekst_mobil lg:text-brodtekst_web flex gap-10 p-3"
+                  class="flex gap-10 bg-graagron p-3 text-brodtekst_mobil lg:text-brodtekst_web"
                 >
                   <p>18.15</p>
                   <div>
@@ -341,7 +340,7 @@
               </article>
               <article class="border-b-2">
                 <div
-                  class="bg-graagron text-brodtekst_mobil lg:text-brodtekst_web flex gap-10 p-3"
+                  class="flex gap-10 bg-graagron p-3 text-brodtekst_mobil lg:text-brodtekst_web"
                 >
                   <p>18.30</p>
                   <div>
@@ -352,7 +351,7 @@
               </article>
               <article class="border-b-2">
                 <div
-                  class="bg-graagron text-brodtekst_mobil lg:text-brodtekst_web flex gap-10 p-3"
+                  class="flex gap-10 bg-graagron p-3 text-brodtekst_mobil lg:text-brodtekst_web"
                 >
                   <p>20.15</p>
                   <div>
@@ -363,7 +362,7 @@
               </article>
               <article>
                 <div
-                  class="bg-graagron text-brodtekst_mobil lg:text-brodtekst_web flex gap-10 p-3"
+                  class="flex gap-10 bg-graagron p-3 text-brodtekst_mobil lg:text-brodtekst_web"
                 >
                   <p>20.15</p>
                   <div>
@@ -382,7 +381,7 @@
             >
               <article class="border-b-2">
                 <div
-                  class="bg-graagron text-brodtekst_mobil lg:text-brodtekst_web flex gap-10 p-3"
+                  class="flex gap-10 bg-graagron p-3 text-brodtekst_mobil lg:text-brodtekst_web"
                 >
                   <p>15.00</p>
                   <div>
@@ -393,7 +392,7 @@
               </article>
               <article class="border-b-2">
                 <div
-                  class="bg-graagron text-brodtekst_mobil lg:text-brodtekst_web flex gap-10 p-3"
+                  class="flex gap-10 bg-graagron p-3 text-brodtekst_mobil lg:text-brodtekst_web"
                 >
                   <p>16.30</p>
                   <div>
@@ -404,7 +403,7 @@
               </article>
               <article class="border-b-2">
                 <div
-                  class="bg-graagron text-brodtekst_mobil lg:text-brodtekst_web flex gap-10 p-3"
+                  class="flex gap-10 bg-graagron p-3 text-brodtekst_mobil lg:text-brodtekst_web"
                 >
                   <p>18.00</p>
                   <div>
@@ -415,7 +414,7 @@
               </article>
               <article class="border-b-2">
                 <div
-                  class="bg-graagron text-brodtekst_mobil lg:text-brodtekst_web flex gap-10 p-3"
+                  class="flex gap-10 bg-graagron p-3 text-brodtekst_mobil lg:text-brodtekst_web"
                 >
                   <p>18.15</p>
                   <div>
@@ -426,7 +425,7 @@
               </article>
               <article class="border-b-2">
                 <div
-                  class="bg-graagron text-brodtekst_mobil lg:text-brodtekst_web flex gap-10 p-3"
+                  class="flex gap-10 bg-graagron p-3 text-brodtekst_mobil lg:text-brodtekst_web"
                 >
                   <p>19.15</p>
                   <div>
@@ -437,7 +436,7 @@
               </article>
               <article>
                 <div
-                  class="bg-graagron text-brodtekst_mobil lg:text-brodtekst_web flex gap-10 p-3"
+                  class="flex gap-10 bg-graagron p-3 text-brodtekst_mobil lg:text-brodtekst_web"
                 >
                   <p>21.15</p>
                   <div>
@@ -455,7 +454,7 @@
             >
               <article class="border-b-2">
                 <div
-                  class="bg-graagron text-brodtekst_mobil lg:text-brodtekst_web flex gap-10 p-3"
+                  class="flex gap-10 bg-graagron p-3 text-brodtekst_mobil lg:text-brodtekst_web"
                 >
                   <p>12:30</p>
                   <div>
@@ -466,7 +465,7 @@
               </article>
               <article class="border-b-2">
                 <div
-                  class="bg-graagron text-brodtekst_mobil lg:text-brodtekst_web flex gap-10 p-3"
+                  class="flex gap-10 bg-graagron p-3 text-brodtekst_mobil lg:text-brodtekst_web"
                 >
                   <p>12.45</p>
                   <div>
@@ -477,7 +476,7 @@
               </article>
               <article class="border-b-2">
                 <div
-                  class="bg-graagron text-brodtekst_mobil lg:text-brodtekst_web flex gap-10 p-3"
+                  class="flex gap-10 bg-graagron p-3 text-brodtekst_mobil lg:text-brodtekst_web"
                 >
                   <p>13.00</p>
                   <div>
@@ -488,7 +487,7 @@
               </article>
               <article class="border-b-2">
                 <div
-                  class="bg-graagron text-brodtekst_mobil lg:text-brodtekst_web flex gap-10 p-3"
+                  class="flex gap-10 bg-graagron p-3 text-brodtekst_mobil lg:text-brodtekst_web"
                 >
                   <p>14.45</p>
                   <div>
@@ -499,7 +498,7 @@
               </article>
               <article class="border-b-2">
                 <div
-                  class="bg-graagron text-brodtekst_mobil lg:text-brodtekst_web flex gap-10 p-3"
+                  class="flex gap-10 bg-graagron p-3 text-brodtekst_mobil lg:text-brodtekst_web"
                 >
                   <p>16.15</p>
                   <div>
@@ -510,7 +509,7 @@
               </article>
               <article>
                 <div
-                  class="bg-graagron text-brodtekst_mobil lg:text-brodtekst_web flex gap-10 p-3"
+                  class="flex gap-10 bg-graagron p-3 text-brodtekst_mobil lg:text-brodtekst_web"
                 >
                   <p>17.30</p>
                   <div>
@@ -529,28 +528,28 @@
           <div>
             <h2
               itemprop="doorTime"
-              class="text-h2_mobil lg:text-h2_web text-center"
+              class="text-center text-h2_mobil lg:text-h2_web"
             >
               2022 <span itemprop="doorTime" class="text-orange">Events</span>
             </h2>
           </div>
           <div class="grid grid-cols-2 lg:py-10 lg:px-20">
             <div
-              class="text-brodtekst_mobil lg:text-h3_mobil col-start-1 row-start-1"
+              class="col-start-1 row-start-1 text-brodtekst_mobil lg:text-h3_mobil"
             >
               <p itemprop="actor" class="font-bold">Scenekunst om tabu</p>
               <p itemprop="doorTime">16:30 - 17:30</p>
               <p itemprop="location">Ukirken</p>
             </div>
             <div
-              class="text-brodtekst_mobil lg:text-h3_mobil col-start-2 row-start-2 text-right"
+              class="col-start-2 row-start-2 text-right text-brodtekst_mobil lg:text-h3_mobil"
             >
               <p itemprop="actor" class="font-bold">Ny dansk dramatik</p>
               <p itemprop="doorTime">16:30 - 17:30</p>
               <p itemprop="location">Ukirken</p>
             </div>
             <div
-              class="text-brodtekst_mobil lg:text-h3_mobil col-start-1 row-start-3"
+              class="col-start-1 row-start-3 text-brodtekst_mobil lg:text-h3_mobil"
             >
               <p itemprop="actor" class="font-bold">Fremtidens Scenekunst</p>
               <p itemprop="doorTime">16:30 - 17:30</p>
@@ -563,7 +562,7 @@
       <section>
         <article class="pb-10">
           <div
-            class="text-brodtekst_mobil lg:text-brodtekst_web mx-auto w-2/3 lg:w-1/2"
+            class="mx-auto w-2/3 text-brodtekst_mobil lg:w-1/2 lg:text-brodtekst_web"
           >
             <p>
               Er du interesseret i at se Vildskuds tidligere forestillinger?
@@ -582,7 +581,7 @@
       <div class="grid grid-cols-2 gap-10 p-5">
         <div class="lg:mx-auto">
           <a href="index.html"
-            ><h4 class="text-brodtekst_web lg:text-h3_mobil font-bold">
+            ><h4 class="text-brodtekst_web font-bold lg:text-h3_mobil">
               VILDSKUD
             </h4></a
           >
@@ -596,7 +595,7 @@
         </div>
 
         <div class="lg:mx-auto">
-          <h4 class="text-brodtekst_web lg:text-h3_mobil font-bold">
+          <h4 class="text-brodtekst_web font-bold lg:text-h3_mobil">
             VI ELSKER BÆREDYGTIGHED
           </h4>
           <p class="text-footer_mobil lg:text-brodtekst_mobil">
@@ -609,26 +608,26 @@
       </div>
 
       <div class="grid grid-cols-4 p-5 text-center lg:relative lg:pb-10">
-        <a class="text-brodtekst_mobil lg:text-h3_mobil underline" href=""
+        <a class="text-brodtekst_mobil underline lg:text-h3_mobil" href=""
           >Facebook</a
         >
-        <a class="text-brodtekst_mobil lg:text-h3_mobil underline" href=""
+        <a class="text-brodtekst_mobil underline lg:text-h3_mobil" href=""
           >Instagram</a
         >
         <a
-          class="text-brodtekst_mobil lg:text-h3_mobil pl-5 underline"
+          class="pl-5 text-brodtekst_mobil underline lg:text-h3_mobil"
           href="kontakt.html"
           >FAQ</a
         >
         <a
-          class="text-brodtekst_mobil lg:text-h3_mobil pr-5 underline lg:pr-0"
+          class="pr-5 text-brodtekst_mobil underline lg:pr-0 lg:text-h3_mobil"
           href="kontakt.html"
           >Kontakt</a
         >
       </div>
 
       <div
-        class="bg-beige text-footer_mobil_links lg:text-brodtekst_web flex justify-evenly py-2"
+        class="flex justify-evenly bg-beige py-2 text-footer_mobil_links lg:text-brodtekst_web"
       >
         <a href="">Cookiepolitik</a>
         <a href="">Privatlivspolitik</a>
