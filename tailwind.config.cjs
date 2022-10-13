@@ -22,7 +22,7 @@ module.exports = {
       h5_mobil: "1.2rem",
       brodtekst_mobil: "1rem",
       footer_mobil: "0.8rem",
-      footer_mobil_links: "0.8rem",
+      footer_mobil_links: "0.5rem",
       h1_web: "6.25rem",
       h2_web: "3.6rem",
       h3_web: "3.125rem",
