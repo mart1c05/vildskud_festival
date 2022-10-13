@@ -1,3 +1,28 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+@layer base {
+  p,
+  input,
+  li,
+  .text_link,
+  h5 {
+    font-family: Times, "Times New Roman", Georgia, serif;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  button,
+  a,
+  label {
+    font-family: bebas;
+    
+  }
+  @font-face {
+    font-family: bebas;
+    src: url(font/bebasneue-regular.woff);
+  }
+}
+
