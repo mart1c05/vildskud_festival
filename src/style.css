@@ -17,7 +17,7 @@
   button,
   a,
   label {
-    font-family: "arial black", sans-serif;
+    font-family: "arial black", "arial", sans-serif;
     color: black;
     text-transform: uppercase;
     
